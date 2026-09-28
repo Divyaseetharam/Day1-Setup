@@ -34,3 +34,23 @@ Unit → Integration → System → UAT
 # QA = Ensures good processes
 # QC = Ensures good product
 # Test Levels = Different layers of testing
+
+# Git = Version Control Tool (on your laptop)
+# Git is a software installed on your computer.
+# It helps you:
+# track changes in your files
+# save versions (commits)
+# go back to older versions
+# create branches
+# merge code
+# resolve conflicts
+
+# GitHub = Cloud Storage + Collaboration Platform
+# GitHub is a website where you store your Git repositories online.
+# It helps you:
+# upload your code
+# share your repo
+# collaborate with others
+# show your work to recruiters
+# run CI/CD pipelines
+# manage issues, pull requests, projects

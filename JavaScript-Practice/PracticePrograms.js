@@ -21,3 +21,51 @@ function sumArray(numbers) {
     return sum;
 }
 console.log(sumArray([1, 2, 3, 4, 5])); // Output: 15
+
+
+//Write a function that takes an array of numbers and returns the largest number in the array.  
+function findLargest(numbers) {
+    let largest = numbers[0];  // assume first number is largest
+
+    for (let num of numbers) {
+        if (num > largest) {
+            largest = num;
+        }
+    }
+
+    return largest;
+}
+
+console.log(findLargest([10, 25, 3, 99, 45]));  // Expected output: 99
+
+//Wrtie a function that takes a string and reverse it.
+
+function reverseString(str) {
+    let reversed = "";
+
+    for (let char of str) {
+        reversed = char + reversed;
+    }
+
+    return reversed;
+}
+
+console.log(reverseString("Divya"));  // Expected: ayviD
+
+//Count vowels in a string
+function countVowels(str) {
+    let count = 0;
+    let vowels = "aeiouAEIOU";
+
+    for (let char of str) {
+        if (vowels.includes(char)) {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+console.log(countVowels("automation"));  // Expected: 6
+
+
